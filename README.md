@@ -35,4 +35,4 @@ the `react.json` now only holds (possible future enhancement):
 Where: 
 * `search`: item in `package.json/dependencies` to look for
 * `platform`: which platform you are running (determines the `template dir`)
-* `destination`: directory where to put the components (configurable)
+* `destination`: directory where to put the components (configurable in downloaded/create `$PROJECT_ROOT/.atomic-bomb`)

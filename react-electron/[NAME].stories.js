@@ -1,9 +1,9 @@
 import React from 'react'
-import [NAME]src from './[NAME]'
+import [NAME]Src from './[NAME]'
 
 const [NAME]Meta = {
     title: "[TYPE]/[NAME]",
-    component: [NAME]src,
+    component: [NAME]Src,
     argTypes: {
         testID: { table: { disable: true } },
         size: { name: "Size" },
@@ -12,7 +12,7 @@ const [NAME]Meta = {
 }
 
 const testID = "[NAME]-" + Math.floor(Math.random() * 90000) + 10000
-const Template = (args) => <[NAME]src {...args} />
+const Template = (args) => <[NAME]Src {...args} />
 
 export const [NAME] = Template.bind({})
 [NAME].args = {

@@ -26,6 +26,7 @@ the `react.json` now only holds (possible future enhancement):
 
 ```json
 {
+  "platform": "react",
   "destination": "src/components"
 }
 ```

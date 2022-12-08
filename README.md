@@ -26,7 +26,13 @@ the `react.json` now only holds (possible future enhancement):
 
 ```json
 {
+  "search": "react",
   "platform": "react",
   "destination": "src/components"
 }
 ```
+
+Where: 
+* `search`: item in `package.json/dependencies` to look for
+* `platform`: which platform you are running (determines the `template dir`)
+* `destination`: directory where to put the components (configurable)

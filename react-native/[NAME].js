@@ -29,7 +29,7 @@ const exceptionClasses = [
     "regular"
 ]
 
-Thing.propTypes = {
+[NAME].propTypes = {
     testID: PropTypes.string,
     text: PropTypes.string,
     type: PropTypes.oneOf(exceptionClasses),

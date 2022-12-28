@@ -1,14 +1,16 @@
 import { useState, useEffect } from 'react'
+import { View, Text } from 'react-native'
 import PropTypes from 'prop-types'
+import [NAME]Style from './[NAME].style'
 
-/// TODO: Define props
+/// TODO: Define & Destructure props
 const [NAME] = (props) => {
 
     return(
-        <div data-testid={ props.testID }
-             data-object-type={ props.type ?? ""}
-             className={ `[NAME] ${props.size} more utility classes` }>
-        </div>
+        <View testID={ props.testID }
+              style={ [NAME]Style.View }>
+            <Text>{ props.text }</Text>
+        </View>
     )
 
 }
@@ -27,10 +29,11 @@ const exceptionClasses = [
     "regular"
 ]
 
-[NAME].propTypes = {
+Thing.propTypes = {
     testID: PropTypes.string,
+    text: PropTypes.string,
     type: PropTypes.oneOf(exceptionClasses),
     size: PropTypes.oneOf(sizes),
 }
 
-export default [NAME]
+export default Thing

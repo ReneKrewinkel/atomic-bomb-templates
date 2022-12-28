@@ -1,25 +1,26 @@
 import React from 'react'
 import [NAME] from './[NAME]'
 
-/// TODO: fix story entries
 const [NAME]Meta = {
-    title: "[TYPE]/[NAME]",
+    title: "atoms/[NAME]",
     component: [NAME],
     argTypes: {
         testID: { table: { disable: true } },
         size: { name: "Size" },
-        type: { name: "Type"}
+        type: { name: "Type"},
+        text: { name: "Text" }
     }
 }
 
 const testID = "[NAME]-" + Math.floor(Math.random() * 90000) + 10000
 const Template = (args) => <[NAME] {...args} />
 
-export const Default[NAME] = Template.bind({})
-Default[NAME].args = {
+export const DefaultThing = Template.bind({})
+DefaultThing.args = {
     testID: testID,
+    text: "Create a story",
     size: "medium",
     type: "regular"
 }
 
-export default [NAME]Meta
+export default ThingMeta

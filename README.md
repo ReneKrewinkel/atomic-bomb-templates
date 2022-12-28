@@ -28,7 +28,8 @@ the `react.json` now only holds (possible future enhancement):
 {
   "search": "react",
   "platform": "react",
-  "destination": "src/components"
+  "destination": "src/components",
+  "scss": true
 }
 ```
 
@@ -36,3 +37,4 @@ Where:
 * `search`: item in `package.json/dependencies` to look for
 * `platform`: which platform you are running (determines the `template dir`)
 * `destination`: directory where to put the components (configurable in downloaded/create `$PROJECT_ROOT/.atomic-bomb`)
+* `scss`: boolean, werther or not adding scss to atomic dirs 

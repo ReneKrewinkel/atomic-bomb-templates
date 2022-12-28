@@ -1,5 +1,6 @@
 {
   "search": "react",
   "platform": "react-adapted",
-  "destination": "src/components"
+  "destination": "src/components",
+  "scss": true
 }

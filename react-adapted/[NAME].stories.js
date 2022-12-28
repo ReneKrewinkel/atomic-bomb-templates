@@ -1,5 +1,6 @@
 import React from 'react'
 import [NAME]Src from './[NAME]'
+import defaults from '../../../config/defaults'
 
 const [NAME]Meta = {
     title: "[TYPE]/[NAME]",

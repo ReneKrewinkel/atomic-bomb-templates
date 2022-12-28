@@ -1,5 +1,6 @@
 import React from 'react'
 import { render, screen } from "@testing-library/react"
+import defaults from '../../../config/defaults'
 
 /// Preferably each story instead of actual object
 ///

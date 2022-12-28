@@ -36,4 +36,4 @@ const exceptionClasses = [
     size: PropTypes.oneOf(sizes),
 }
 
-export default Thing
+export default [NAME]

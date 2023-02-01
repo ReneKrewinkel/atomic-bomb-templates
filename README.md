@@ -37,4 +37,9 @@ Where:
 * `search`: item in `package.json/dependencies` to look for
 * `platform`: which platform you are running (determines the `template dir`)
 * `destination`: directory where to put the components (configurable in downloaded/create `$PROJECT_ROOT/.atomic-bomb`)
-* `scss`: boolean, werther or not adding scss to atomic dirs 
+* `scss`: boolean, werther or not adding scss to atomic dirs
+
+## Current platforms
+* react: `atomic-bomb --platform react --type atom --name Label`
+* react-native: `atomic-bomb --platform react-native --type atom --name Label`
+* react TypeScript: `atomic-bomb --platform react-ts --type atom --name Label`

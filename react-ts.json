@@ -1,0 +1,6 @@
+{
+  "search": "react",
+  "platform": "react-ts",
+  "destination": "src/components",
+  "scss": true
+}

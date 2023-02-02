@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react'
 import { [NAME]Interface } from './[NAME].interface'
 
 /// TODO: update interface/arguments
-const [NAME] = (props:[NAME]Interface) => {
+const [NAME] = ({testID, type, size, props }:[NAME]Interface) => {
 
     return(
-        <div data-testid={ props.testID }
-             data-object-type={ props.type ?? ""}
-             className={ `[NAME] ${props.size} more utility classes` }>
+        <div data-testid={ testID }
+             data-object-type={ type ?? ""}
+             className={ `[NAME] ${ size } more utility classes` }>
         </div>
     )
 

@@ -4,7 +4,7 @@ import [NAME] from './[NAME]'
 import { [NAME]Interface  } from './[NAME].interface'
 
 const [NAME]Meta: ComponentMeta<typeof [NAME]> = {
-    title: "${DIR_PATH}",
+    title: "[TYPE]/[NAME]",
     component: [NAME],
     argTypes: {
         testID: { table: { disable: true } }

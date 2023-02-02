@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { [NAME]Interface } from './[NAME].interface'
 
 /// TODO: update interface/arguments
-const [NAME] = ({testID, type, size, props }:[NAME]Interface) => {
+const [NAME] = ({testID, style, type, size, props }:[NAME]Interface) => {
 
     return(
         <div data-testid={ testID }

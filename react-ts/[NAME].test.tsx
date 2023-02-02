@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, screen } from '@testing-library/react-native';
+import { render, screen } from '@testing-library/react';
 
 
 /// Preferably each story instead of actual component

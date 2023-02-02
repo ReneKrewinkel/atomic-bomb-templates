@@ -5,10 +5,10 @@ import { [NAME]Interface } from './[NAME].interface'
 const [NAME] = (props:[NAME]Interface) => {
 
     return(
-        <View testID={ props.testID }
-              style={`[NAME]`}>
-
-        </View>
+        <div data-testid={ props.testID }
+             data-object-type={ props.type ?? ""}
+             className={ `[NAME] ${props.size} more utility classes` }>
+        </div>
     )
 
 }

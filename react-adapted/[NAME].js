@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 
-/// TODO: Define props
+/// TODO: Define props for [NAME]
 const [NAME] = ({ testID = "", type = ""}) => {
 
     return(

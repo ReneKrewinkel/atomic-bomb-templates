@@ -6,7 +6,7 @@ import { defaults } from '../../../config'
 /// TODO: Adapt Stories
 const [NAME]Meta: ComponentMeta<typeof [NAME]Src> = {
     title: "[TYPE]/[NAME]",
-    component: [NAME],
+    component: [NAME]Src,
     argTypes: {
         testID: { table: { disable: true } }
     }

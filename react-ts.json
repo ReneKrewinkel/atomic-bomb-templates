@@ -1,5 +1,6 @@
 {
   "search": "react",
+  "extension": "ts",
   "platform": "react-ts",
   "destination": "src/components",
   "scss": true

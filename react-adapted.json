@@ -1,5 +1,6 @@
 {
   "search": "react",
+  "extension": "js",
   "platform": "react-adapted",
   "destination": "src/components",
   "scss": true

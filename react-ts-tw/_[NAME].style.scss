@@ -1,30 +1,20 @@
-.[NAME] {
+/// No need to import these here, since they are already loaded in main.scss
+/// @tailwind components;
+/// @tailwind utilities;
 
+@layer .[NAME] {
+    // @apply tailwind classes go here!
+    // TIP: apply classes on seperate lines:
+    // @apply flex
+    //        next-class (maybe combination of related utils
+    //        another-class ; // end with semi colon
 
-
-// XS - Phone
-@media (max-width: 480px) {
-
-}
-
-// S - Tablet
-@media (max-width: 481px) and (max-width: 768px) {
-
-}
-
-// M - Tablet/Laptop
-@media (max-width: 769px) and (max-width: 1024px) {
-
-}
-
-// L - High Res
-@media (min-width: 1025px) and (max-width: 1200px) {
-
-}
-
-// XL - Ultra High Res
-@media (min-width: 1201px) {
-
-}
-
+    /// SUB Classes or exception classes go next:
+    /*
+    &[data-object-type='exception'] {
+        @apply flex
+               next-class (maybe combination of related utils
+               another-class ; // end with semi colon
+    }
+    */
 }

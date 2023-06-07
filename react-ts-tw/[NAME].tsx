@@ -7,7 +7,7 @@ const [NAME] = ({testID, style, type, size, props }:[NAME]Interface) => {
     return(
         <div data-testid={ testID }
              data-object-type={ type ?? ""}
-             className={ `${ Styles.[NAME] }` }>
+             className={ `[NAME]` }>
         </div>
     )
 

@@ -2,7 +2,7 @@ import React from 'react'
 import { Meta, StoryObj } from '@storybook/react'
 import [NAME]Src from './[NAME]'
 import { [NAME]Interface  } from './[NAME].interface'
-import { defaults } from '../../../config'
+import { [NAME]Mocks } from './[NAME].mocks'
 
 /// TODO: Adapt Stories
 const [NAME]Meta: Meta<typeof [NAME]Src> = {
@@ -15,11 +15,7 @@ const [NAME]Meta: Meta<typeof [NAME]Src> = {
 
 type Story = StoryObj<typeof [NAME]Src>
 export const [NAME]: Story = {
-    args: {
-        size: 'xs',
-        type: 'default',
-        /// etc
-    }
+    args: { ...[NAME]Mocks }
 }
 
 export default [NAME]Meta

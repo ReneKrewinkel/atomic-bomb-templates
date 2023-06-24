@@ -2,7 +2,7 @@ import React from 'react'
 import { Meta, StoryObj } from '@storybook/react'
 import [NAME]Src from './[NAME]'
 import { [NAME]Interface  } from './[NAME].interface'
-import { [NAME]Mocks } from './[NAME].mocks'
+import { [NAME]Mocks } from './[NAME].mock'
 
 /// TODO: Adapt Stories
 const [NAME]Meta: Meta<typeof [NAME]Src> = {

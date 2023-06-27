@@ -15,7 +15,7 @@ const [NAME]Meta: Meta<typeof [NAME]Src> = {
 
 type Story = StoryObj<typeof [NAME]Src>
 export const [NAME]: Story = {
-    args: { ...[NAME]Mocks }
+    args: { ...[NAME]Mock }
 }
 
 export default [NAME]Meta

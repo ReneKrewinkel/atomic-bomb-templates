@@ -7,10 +7,9 @@ import [NAME]Style from './[NAME].style'
 const [NAME] = ({testID, style, type, size, props }:[NAME]Interface) => {
 
     return(
-        <div data-testid={ testID }
-             data-object-type={ type ?? ""}
-             className={ `[NAME]` }>
-        </div>
+        <View testID={ testID }
+              style={ [NAME]Style.View }>
+        </View>
     )
 
 }

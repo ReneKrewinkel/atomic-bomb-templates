@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest'
 import { render, screen } from '@testing-library/react-native';
 
 import { [NAME]Interface  } from './[NAME].interface'

@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import { [NAME]Interface  } from './[NAME].interface'
 import [NAME] from './[NAME]'

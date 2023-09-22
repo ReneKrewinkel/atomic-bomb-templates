@@ -6,8 +6,16 @@ import { [NAME]Mock } from './[NAME].mock'
 
 /// TODO: Adapt Stories
 const [NAME]Meta: Meta<typeof [NAME]Src> = {
-    title: "[TYPE]/[NAME]",
+    title: '[TYPE]/[NAME]',
     component: [NAME]Src,
+    tags: ['autodocs'],
+    parameters: {
+        docs: {
+            description: {
+                component: 'Add description here / markdown possible',
+            }
+        }
+    },
     argTypes: {
         testID: { table: { disable: true } }
     }

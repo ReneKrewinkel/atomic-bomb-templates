@@ -1,5 +1,6 @@
 import React from 'react'
 import [NAME] from './[NAME]'
+import [NAME]Mock from './[NAME]Mock'
 
 /// TODO: fix story entries
 const [NAME]Meta = {
@@ -18,8 +19,7 @@ const Template = (args) => <[NAME] {...args} />
 export const Default[NAME] = Template.bind({})
 Default[NAME].args = {
     testID: testID,
-    size: "medium",
-    type: "regular"
+    ...[NAME]Mock
 }
 
 export default [NAME]Meta

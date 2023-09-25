@@ -1,6 +1,6 @@
 import React from 'react'
 import [NAME] from './[NAME]'
-import [NAME]Mock from './[NAME]Mock'
+import [NAME]Mock from './[NAME].mock'
 
 /// TODO: fix story entries
 const [NAME]Meta = {

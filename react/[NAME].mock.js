@@ -1,5 +1,5 @@
 const [NAME]Mock = {
-  /// TODD: Implement data structure
+  /// TODO: Implement data structure
   size: "medium",
   type: "regular"
 }

@@ -1,6 +1,6 @@
 {
   "search": "@shopify/hydrogen",
-  "extension": "js",
+  "extension": "jsx",
   "platform": "react-shopify",
   "destination": "app/components",
   "scss": true

@@ -1,0 +1,7 @@
+{
+  "search": "react",
+  "extension": "tsx",
+  "platform": "react-native-bettr",
+  "destination": "components",
+  "scss": false
+}

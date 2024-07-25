@@ -1,4 +1,4 @@
-// import { useState, useEffect, useContext } from 'react'
+import React /*, { useState, useEffect, useContext } */ from 'react'
 import { View, Text } from 'react-native'
 import { [NAME]Interface } from './[NAME].interface'
 import [NAME]Style from './[NAME].style'

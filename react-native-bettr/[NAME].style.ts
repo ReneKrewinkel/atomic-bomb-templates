@@ -1,6 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { mainStyle, mainColors } from "../../../resources/style"
-
+import { mainStyle } from "../../../resources/style"
 
 const [NAME]Style = StyleSheet.create({
   View: {

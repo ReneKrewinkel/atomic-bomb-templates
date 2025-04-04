@@ -1,6 +1,6 @@
 import {describe, it, expect} from 'vitest';
 import { render, screen } from '@testing-library/react'
-import { [NAME]Interface  } from './[NAME].interface'
+// import { [NAME]Interface  } from './[NAME].interface'
 import [NAME] from './[NAME]'
 import { [NAME]Mock } from './[NAME].mock'
 
@@ -11,7 +11,7 @@ describe("[NAME]", () => {
 
     it("Can render [NAME]", () => {
         render(<[NAME] testID={ testID } { ...[NAME]Mock } />)
-        let defaultCreated = screen.getByTestId(testID)
+        const defaultCreated = screen.getByTestId(testID)
         expect(defaultCreated).not.toBeNull()
     })
 

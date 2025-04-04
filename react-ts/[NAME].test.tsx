@@ -10,7 +10,7 @@ describe("[NAME]", () => {
 
     it("Can render [NAME]", () => {
         render(<[NAME] testID={ testID } { ...[NAME]Mock } />)
-        let defaultCreated = screen.getByTestId(testID)
+        const defaultCreated = screen.getByTestId(testID)
         expect(defaultCreated).not.toBeNull()
     })
 

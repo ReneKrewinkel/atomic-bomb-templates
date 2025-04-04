@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import { [NAME]Interface  } from './[NAME].interface'
+import { [NAME]Interface } from './[NAME].interface'
 import [NAME] from './[NAME]'
 import { [NAME]Mock } from './[NAME].mock'
 

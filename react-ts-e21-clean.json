@@ -1,0 +1,7 @@
+{
+  "search": "react",
+  "extension": "tsx",
+  "platform": "react-ts-e21-clean",
+  "destination": "src/components",
+  "scss": true
+}

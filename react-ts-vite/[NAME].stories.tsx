@@ -1,7 +1,7 @@
 // import React from 'react'
 import { type Meta, type StoryObj } from '@storybook/react'
 import [NAME]Src from './[NAME]'
-// import { [NAME]Interface } from './[NAME].interface'
+// import type { [NAME]Interface } from './[NAME].interface'
 import { [NAME]Mock } from './[NAME].mock'
 
 /// TODO: Adapt Stories

@@ -4,7 +4,7 @@ import [NAME]Src from './[NAME]'
 import { [NAME]Interface  } from './[NAME].interface'
 import { [NAME]Mock } from './[NAME].mock'
 
-/// TODO: Adapt Stories
+/// TODO: Adapt [NAME] Stories
 const [NAME]Meta: Meta<typeof [NAME]Src> = {
     title: "[TYPE]/[NAME]",
     component: [NAME]Src,

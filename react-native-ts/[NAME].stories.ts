@@ -8,6 +8,7 @@ import { [NAME]Mock } from './[NAME].mock'
 const [NAME]Meta: Meta<typeof [NAME]Src> = {
     title: "[TYPE]/[NAME]",
     component: [NAME]Src,
+    tags: ['autodocs'],
     argTypes: {
         testID: { table: { disable: true } }
     }

@@ -4,7 +4,7 @@ import { render, screen } from '@testing-library/react'
 import [NAME] from './[NAME]'
 import { [NAME]Mock } from './[NAME].mock'
 
-/// TODO: fix test based upon interface
+/// TODO: fix test based upon interface for [NAME]
 const testID = "[NAME]-" + Math.floor(Math.random()*90000) + 10000
 
 describe("[NAME]", () => {

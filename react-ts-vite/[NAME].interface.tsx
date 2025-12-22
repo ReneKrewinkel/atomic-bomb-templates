@@ -1,6 +1,6 @@
 import React from 'react'
 
-/// TODO: Adapt interface
+/// TODO: Adapt interface for [NAME]
 export interface [NAME]Interface {
     props?: any,  /// refactor to appropriate (destructured) props
     style?: React.CSSProperties | any,

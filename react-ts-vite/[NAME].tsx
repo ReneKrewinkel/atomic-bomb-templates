@@ -1,5 +1,5 @@
 // import { useState, useEffect, useContext } from 'react'
-import { [NAME]Interface } from './[NAME].interface'
+import type { [NAME]Interface } from './[NAME].interface'
 
 /// TODO: update interface/arguments for [NAME]
 const [NAME] = ({testID, style, type, size, props }:[NAME]Interface) => {

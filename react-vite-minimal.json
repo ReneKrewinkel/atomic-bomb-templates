@@ -1,0 +1,7 @@
+{
+  "search": "react",
+  "extension": "tsx",
+  "platform": "react-vite-minimal",
+  "destination": "src/components",
+  "scss": false
+}

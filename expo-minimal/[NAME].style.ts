@@ -3,7 +3,7 @@ import { style } from '@/resources/styles'
 
 const [NAME]Style = StyleSheet.create({
   View: {
-    padding: 10
+    ...style.component,
   }
 })
 

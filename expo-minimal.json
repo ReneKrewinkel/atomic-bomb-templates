@@ -1,0 +1,7 @@
+{
+  "search": "react-native",
+  "extension": "ts",
+  "platform": "expo-minimal",
+  "destination": "/components",
+  "scss": false
+}

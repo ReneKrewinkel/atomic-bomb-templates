@@ -6,7 +6,7 @@ import { [NAME]Mock } from './[NAME].mock'
 
 /// TODO: Adapt Stories for [NAME]
 const [NAME]Meta: Meta<typeof [NAME]Src> = {
-    title: "[TYPE]/[NAME]",
+    title: "Components/[TYPE]/[NAME]",
     component: [NAME]Src,
     argTypes: {
         testID: { table: { disable: true } }

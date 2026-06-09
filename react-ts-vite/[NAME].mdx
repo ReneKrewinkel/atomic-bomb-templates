@@ -1,0 +1,23 @@
+import { Meta, Source } from '@storybook/addon-docs/blocks'
+import source from './[NAME].tsx?raw'
+import iface from './[NAME].interface?raw'
+import tests from './[NAME].test?raw'
+import mock from './[NAME].mock?raw'
+
+<Meta title="[NAME]" />
+
+# [NAME]
+
+Add a description of the component or module here.
+
+## Component [NAME]
+<Source code={source} language="tsx" />
+
+## Interface
+<Source code={iface} language="ts" />
+
+## Mock
+<Source code={mock} language="ts" />
+
+## Tests
+<Source code={tests} language="ts" />
